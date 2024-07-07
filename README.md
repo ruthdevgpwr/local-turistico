@@ -1,4 +1,4 @@
-# Desafio - Página Web sobre Local Turístico
+# Desafio - Página Web Local Turístico
 
 Este repositório contém o projeto desenvolvido como parte do desafio da formação fullstack da Rocketseat. O objetivo é criar uma página web com informações sobre um local turístico, aplicando conhecimentos em HTML, CSS e design.
 
