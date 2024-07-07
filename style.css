@@ -3,11 +3,98 @@
   padding: 0;
 }
 
-/* adicionar primeira linha */
+:root {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f5f4f0;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px auto;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 28px;
+  background-size: cover;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e1624f;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #1b1b1b;
+}
+
+h2 {
+  color: #1b1b1b;
+  font-size: 32px;
+}
+
+p {
+  color: #333333;
+  font-size: 16px;
+}
+
+#img-busan {
+  height: 660px;
+}
+
+#descricao img {
+  margin-bottom: 24px;
+}
+
+#subtitulo {
+  color: #333333;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 .divisor {
   width: 100%;
   height: 1px;
-  margin: 36px 0;
   background-color: #d9d9d9;
 }
-/* adicionar segunda linha */
+
+main > section > .divisor {
+  margin-bottom: 64px;
+}
+
+div > .headline {
+  margin-bottom: 2px;
+}
+
+main > section > .divisor + div {
+  margin-bottom: 8px;
+}
+
+#destinos {
+  margin-top: 64px;
+}
+
+#card-1,
+#card-2 {
+  margin-bottom: 48px;
+}
+
+.card > img {
+  margin-bottom: 20px;
+}
+
+img + div > h3 {
+  margin-bottom: 4px;
+}
