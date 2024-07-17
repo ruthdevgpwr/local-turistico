@@ -5,6 +5,7 @@
 
 :root {
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 img {
   max-width: 100%;
   border-radius: 28px;
-  background-size: cover;
+  object-fit: cover;
 }
 
 .headline {
@@ -95,6 +96,46 @@ main > section > .divisor + div {
   margin-bottom: 20px;
 }
 
+#divisor-two{
+  margin: 40px 0 40px;
+}
+
+
 img + div > h3 {
   margin-bottom: 4px;
+}
+
+.bom-para {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 14px 0px 2px;
+}
+
+ul {
+  margin-left: 19px;
+}
+
+li {
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #333333;
+}
+
+.lista-card .historia {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+ul li:nth-child(1) {
+  color: #591B98;
+}
+
+ul li:nth-child(2) {
+  color: #E5245E;
+}
+
+ul li:nth-child(3) {
+  color: #E95E10;
 }
