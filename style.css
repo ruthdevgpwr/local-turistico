@@ -80,7 +80,7 @@ p {
   background-color: #d9d9d9;
 }
 
-main > section > .divisor {
+#primeiro-divisor {
   margin-bottom: 64px;
 }
 
@@ -96,8 +96,8 @@ main > section > .divisor + div {
   margin-top: 64px;
 }
 
-#card-1,
-#card-2 {
+#card-templo-haedong,
+#card-templo-bomeo {
   margin-bottom: 48px;
 }
 
@@ -105,12 +105,11 @@ main > section > .divisor + div {
   margin-bottom: 20px;
 }
 
-#divisor-two{
+#segundo-divisor {
   margin: 40px 0 40px;
 }
 
-
-img + div > h3 {
+img + #container-templo-bomeo > h3 {
   margin-bottom: 4px;
 }
 
@@ -137,15 +136,15 @@ ul li::marker {
   font-weight: bold;
 }
 
-ul li:nth-child(1) {
+#casais {
   color: var(--accent-purple);
 }
 
-ul li:nth-child(2) {
+#familias {
   color: var(--accent-pink);
 }
 
-ul li:nth-child(3) {
+#orcamentos {
   color: var(--accent-orange);
 }
 
