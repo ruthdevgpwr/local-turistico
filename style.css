@@ -1,3 +1,14 @@
+:root {
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-headline: #e1624f;
+
+  --accent-blue: #0C51A7;
+  --accent-orange: #E95E10;
+  --accent-pink: #E5245E;
+  --accent-purple: #591B98;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +38,7 @@ img {
 .headline {
   font-size: 16px;
   font-weight: bold;
-  color: #e1624f;
+  color: var(--text-headline);
   margin-bottom: 8px;
   text-transform: uppercase;
 }
@@ -36,16 +47,16 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 40px;
-  color: #1b1b1b;
+  color: var(--text-primary);
 }
 
 h2 {
-  color: #1b1b1b;
+  color: var(--text-primary);
   font-size: 32px;
 }
 
 p {
-  color: #333333;
+  color: var(--text-secondary);
   font-size: 16px;
 }
 
@@ -58,7 +69,7 @@ p {
 }
 
 #subtitulo {
-  color: #333333;
+  color: var(--text-secondary);
   font-size: 16px;
   font-style: italic;
   text-align: center;
@@ -120,24 +131,24 @@ li {
 }
 
 ul li::marker {
-  color: #333333;
+  color: var(--text-secondary);
 }
 
 .lista-card .historia {
-  color: #0C51A7;
+  color: var(--accent-blue);
   font-weight: bold;
 }
 
 ul li:nth-child(1) {
-  color: #591B98;
+  color: var(--accent-purple);
 }
 
 ul li:nth-child(2) {
-  color: #E5245E;
+  color: var(--accent-pink);
 }
 
 ul li:nth-child(3) {
-  color: #E95E10;
+  color: var(--accent-orange);
 }
 
 footer {
