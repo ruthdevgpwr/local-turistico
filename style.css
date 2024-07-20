@@ -1,4 +1,7 @@
 :root {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  
   --text-primary: #1b1b1b;
   --text-secondary: #333333;
   --text-headline: #e1624f;
@@ -12,11 +15,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-:root {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
 }
 
 body {
